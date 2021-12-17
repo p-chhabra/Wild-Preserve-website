@@ -1,0 +1,243 @@
+html {
+  scroll-behavior: smooth;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
+
+/* SECTION 1 - Navbar */
+.logo img {
+  border: solid white;
+  border-width: 2px;
+  border-radius: 100%;
+  width: 70px;
+  height: 50px;
+  margin-right: 20px;
+}
+
+.nav-item {
+  margin-right: 30px;
+}
+.background-navbar {
+  background: rgba(0, 0, 0, 0.7)
+    url("https://wallpapercave.com/wp/wp2459918.jpg");
+  background-blend-mode: darken;
+}
+
+/* TURTLE BACKGROUND  */
+.background {
+  background: rgba(0, 0, 0, 0.7)
+    url("https://wallpapercave.com/wp/wp2459918.jpg");
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position-x: center;
+  padding-bottom: 10px;
+}
+
+.container {
+  display: flex;
+}
+
+/* Text within Main Heading  */
+.main-head {
+  align-items: center;
+  color: white;
+  padding-top: 30px;
+}
+.main-head h2 {
+  padding: 3% 0;
+  font-family: Georgia, "Times New Roman", Times, serif;
+}
+.btn {
+  margin-right: 20px;
+}
+
+.firstSection {
+  height: 104vh;
+  padding: 3%;
+}
+
+/* SECTION 2  */
+#section2 .row {
+  padding-top: 90px;
+}
+
+.danger-text {
+  margin-left: 5%;
+}
+
+#section2 iframe {
+  margin-left: 70px;
+}
+#section2 {
+  background: #c8e3d4;
+}
+
+/* SECTION 3  */
+#section3 {
+  padding-top: 50px;
+  background: #c8e3d4;
+}
+
+#section3 h1 {
+  text-align: center;
+  padding: 4%;
+  font-weight: 600;
+  font-size: 60px;
+}
+
+#section3 .card {
+  margin: 10%;
+}
+
+.strategy-img img {
+  width: 1500px;
+  height: 150px;
+}
+
+.strategy {
+  text-align: center;
+  margin: 5%;
+}
+
+.strategy p {
+  font-size: 25px;
+}
+
+/* SECTION 4  */
+.fourthSection {
+  height: 140vh;
+  padding: 7%;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.2)
+    url("https://wallpapercave.com/wp/wp4489090.jpg");
+  background-size: cover;
+  background-blend-mode: darken;
+}
+
+.form {
+  border: solid black;
+  border-width: 1px;
+  width: 685px;
+  padding: 4px;
+  margin: 1.3%;
+  max-width: 70%;
+  background: white;
+}
+
+#section4 textarea {
+  margin: 2%;
+  border: solid black;
+  max-width: 70%;
+  background: white;
+}
+
+#section4 h2 {
+  margin-bottom: 50px;
+  font-size: 40px;
+}
+
+/* FOOTER  */
+.text-footer {
+  text-align: center;
+  font-family: "Ubuntu", sans-serif;
+  padding: 10px;
+  margin-bottom: 0;
+  color: white;
+}
+
+/* RESPONSIVE DESIGN  */
+@media only screen and (max-width: 992px) {
+  /* SECTION 1 */
+
+  .background {
+    background-size: cover;
+  }
+  .firstSection {
+    height: 80%;
+  }
+  .main-head {
+    align-items: center;
+    color: white;
+    padding: 5%;
+    text-align: center;
+    margin-top: 4%;
+  }
+  .main-head h2 {
+    padding: 5% 1% !important;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 180% !important;
+  }
+
+  .main-head p {
+    font-size: 70%;
+  }
+  .btn {
+    margin-right: 20px;
+  }
+
+  /* SECTION 2 */
+
+  #section2 .row {
+    flex-direction: column;
+    display: flex;
+    align-self: center;
+    text-align: center;
+  }
+  #section2 .video {
+    margin: 1% 0 2% 0;
+  }
+  #section2 iframe {
+    width: 80% !important;
+    height: 20% !important;
+    margin: 0;
+  }
+  #section2 h2 {
+    font-size: 210%;
+    padding-bottom: 30px;
+  }
+  #section2 .danger-text {
+    padding: 10%;
+    margin: 0;
+  }
+
+  /* SECTION 3 */
+
+  #section3 .card {
+    width: 35rem !important;
+    display: flex;
+    align-self: center;
+  }
+
+  #section3 {
+    text-align: center !important;
+  }
+
+  .strategy-img img {
+    width: 100%;
+    height: 10% !important;
+  }
+
+  #section3 .col {
+    display: flex;
+    justify-content: center;
+  }
+  .card-holder {
+    flex-direction: column;
+    justify-content: center;
+  }
+  #section3 h1 {
+    font-size: 190%;
+  }
+
+  /* SECTION 4  */
+  .fourthSection {
+    height: 180%;
+  }
+}
